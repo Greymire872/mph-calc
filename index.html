@@ -4,11 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Enter Title of HW Here</title>
+  <title>MPH Calculator</title>
+  <style>
+    body {background-color:blue;}
+    label {color:yellow;}
+  </style>
 </head>
 <body>
   <!-- Enter HTML here. -->
-
+  <form action="#">
+    <label for="distance">Enter the distance traveled in miles<br></label>
+    <input type="number" id="distance">
+    <label for="time"><br><br>Enter the the time traveled in hours<br></label>
+    <input type="number" id="time">
+    <label for="submit"><br><br>Calculate the miles per hour<br></label>
+    <input type="submit" id="submit">
+    <output></output>
+  </form>
   <script src="scripts.js"></script>
 </body>
 </html>
