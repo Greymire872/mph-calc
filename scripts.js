@@ -10,9 +10,13 @@ const distance = document.querySelector("distance");
 const time = document.querySelector("#time");
 const output = document.querySelector("output");
 
-function mph {return a / b}
+function mph(a, b) {
+  return a / b;
+}
 
 form.addEventListener("submit", function(event) {
   event.preventDefault();
+  console.log(mph(distance.value, time.value));
+
   output.textContent = mph(distance.value, time.value) + " miles per hour";
-});
+};
